@@ -36,7 +36,9 @@ export default function AboutPage({ data }: AboutPageProps) {
       </div>
 
       <div className="prose-compact prose-amber max-w-sm text-center font-serif text-amber-900">
-        <p className="drop-cap">{data.bio}</p>
+          <p className="first-letter:font-bold">
+            {data.bio}
+          </p>
       </div>
 
       {/* Social Links */}

@@ -48,7 +48,7 @@ export default function ChapterPage({ chapter, position }: ChapterPageProps) {
         </div>
 
         <div className="prose-compact prose-amber max-w-none font-serif text-sm leading-snug text-amber-900">
-          <p className="first-letter:float-left first-letter:mr-2 first-letter:text-4xl first-letter:font-bold first-letter:text-amber-800">
+          <p className="first-letter:font-bold">
             {chapter.story}
           </p>
         </div>

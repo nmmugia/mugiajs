@@ -30,7 +30,7 @@ export default function ResumePage({ data, position }: ResumePageProps) {
         <h2 className="mb-4 font-serif text-lg italic text-amber-700">{data.title}</h2>
 
         <div className="prose-compact prose-amber max-w-sm text-center font-serif text-amber-900">
-          <p className="first-letter:float-left first-letter:mr-1 first-letter:text-3xl first-letter:font-bold first-letter:text-amber-800">
+          <p className="first-letter:float-left first-letter:font-bold">
             {data.bio}
           </p>
         </div>
